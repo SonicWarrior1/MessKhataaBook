@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="158dp"
         android:layout_height="101dp"
-        android:text="Kalra"
+        android:text="Mota"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

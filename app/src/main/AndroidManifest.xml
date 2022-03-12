@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MessKhataaBook">
         <activity
+            android:name=".First_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

@@ -10,19 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MessKhataaBook">
         <activity
-            android:name=".First_page"
+            android:name=".SignUpActivity"
             android:exported="false" />
+        <activity
+            android:name=".First_page"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".login_page"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

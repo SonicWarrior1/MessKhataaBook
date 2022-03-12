@@ -1,5 +1,6 @@
 package com.example.messkhataabook;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -30,6 +31,18 @@ public class DbHandler extends SQLiteOpenHelper {
                 + EMAIL_COL + " TEXT,"
                 + PASSWORD_COL + " TEXT" +")";
         db.execSQL(query);
+    }
+
+    public void SignUpUser(String name,String email,String pass){
+        SQLiteDatabase db=this.getWritableDatabase();
+        ContentValues values=new ContentValues();
+
+        values.put(NAME_COL,name);
+        values.put(EMAIL_COL,email);
+        values.put(PASSWORD_COL,pass);
+
+        db.insert(USER_TABLE,null,values);
+        db.close();
     }
 
     @Override

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MessKhataaBook</string>
+    <string name="Username"><![CDATA[UserName:]]></string>
 </resources>

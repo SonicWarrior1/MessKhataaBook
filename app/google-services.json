@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576343744134",
+    "project_id": "messkhataabook",
+    "storage_bucket": "messkhataabook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576343744134:android:2511f5be84598919567b07",
+        "android_client_info": {
+          "package_name": "com.example.messkhataabook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576343744134-869obcsde1m8makfva6jris9dav6djjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhXfk8YCaRMrGMG6h8kB02rjNC34K0NiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576343744134-869obcsde1m8makfva6jris9dav6djjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
